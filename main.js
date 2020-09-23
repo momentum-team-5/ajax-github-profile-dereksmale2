@@ -11,10 +11,9 @@ fetch(url)
         <div class="profileInfo">
             <h3>The Basics</h3>
             <p class="description">Name: <p class="desciptionInfo">${data.name}</p></p>
-            <p class="description">GitHub URL: <p class="descriptionInfo"><a href="${data.html_url}"></a></p></p>
+            <p class="description">GitHub URL: <p class="descriptionInfo"><a href="${data.html_url}">https://api.github.com/users/dereksmale2</a></p></p>
             <p class="description">Email: <p class="descriptionInfo">dereksmale2@gmail.com</p></p>
-            <p class="description">Company: <p class="descriptionInfo"><a href="${data.company}"></a></p></p>
-            <p class="description">Website: <p class="descriptionInfo"><a href="${data.blog}"></a></p></p>
+            <p class="description">Location: <p class="descriptionInfo">${data.location}</p></p>
         </div>
 
         <div class="profileAbout">
